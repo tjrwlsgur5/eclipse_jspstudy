@@ -13,5 +13,7 @@ String str="석진혁";
 System.out.println("str="+str);//콘솔에 출력
 out.println("<h1>"+"str="+str+"</h1>");//웹에 출력->document.write("str=>"+str)(자바)
 %>
+<hr>
+str의 값출력=<%=str %>
 </body>
 </html>
