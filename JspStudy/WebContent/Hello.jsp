@@ -4,17 +4,19 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Jsp Ã¹¹øÂ° ¿¹Á¦</title>
+<title>Jsp ì²«ë²ˆì§¸ ì˜ˆì œ</title>
 </head>
 <body>
 <%
-//½ºÅ©¸³Æ®¸´(ÀÚ¹ÙÄÚµå¸¦ ¾µ ¼ö ÀÖ°ÔÇØÁÜ.)=>ÀÚ¹ÙÄÚµù(º¯¼ö,Á¦¾î¹®)
-String str="Å×½ºÆ®";
-System.out.println("str="+str);//ÄÜ¼Ö¿¡ Ãâ·Â
-out.println("<h1>"+"str="+str+"</h1>");//À¥¿¡ Ãâ·Â->document.write("str=>"+str)(ÀÚ¹Ù)
+//ìŠ¤í¬ë¦½íŠ¸ë¦¿(ìë°”ì½”ë“œë¥¼ ì“¸ ìˆ˜ ìˆê²Œí•´ì¤Œ.)=>ìë°”ì½”ë”©(ë³€ìˆ˜,ì œì–´ë¬¸)
+String str="í…ŒìŠ¤íŠ¸";
+System.out.println("str="+str);//ì½˜ì†”ì— ì¶œë ¥
+out.println("<h1>"+"str="+str+"</h1>");//ì›¹ì— ì¶œë ¥->document.write("str=>"+str)(ìë°”)
 %>
 <hr>
-strÀÇ °ªÃâ·Â=<%=str %>
-¼ö½Ä°è»ê:<%=(3+5) %>
+strì˜ ê°’ì¶œë ¥=<%=str %>
+ìˆ˜ì‹ê³„ì‚°:<%=(3+5) %>
+<hr>
+ìˆ˜ì‹ê³„ì‚°2<%=(3*5)%>
 </body>
 </html>
